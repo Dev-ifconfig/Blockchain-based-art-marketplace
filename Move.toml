@@ -1,0 +1,15 @@
+[package]
+name = "blockchain_based_art_marketplace_system"
+version = "1.0.0"
+authors = []
+
+[addresses]
+BlockchainBasedArtMarketplaceSystem = '0x8e2b95015de5d02c5b9394e9884b4e36031025ecb9e0a6a9f598e0e547412d93'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
